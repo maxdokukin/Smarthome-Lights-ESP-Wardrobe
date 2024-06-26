@@ -8,10 +8,12 @@
 
 //LED
 #include <Adafruit_NeoPixel.h>
-#define LED_PIN D1
-#define LED_NUM 100
+#define LED_PIN D6
+#define LED_NUM 10
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_NUM, LED_PIN, NEO_GRB + NEO_KHZ400); 
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(LED_NUM, LED_PIN, NEO_GRB + NEO_KHZ800); 
+// Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRBW + NEO_KHZ800);
+
 
 boolean valuesUpdated = false;
 
